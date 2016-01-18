@@ -68,11 +68,19 @@
         </div>
         <div class="col-md-6">
           <div class="code-section">
-           <ul class="button-section">
-             <li><a href="" class="btn btn-primary">One</a></li>
-             <li><a href="" class="btn btn-primary">Two</a></li>
-             <li><a href="" class="btn btn-primary">Three</a></li>
-           </ul>
+             <ul class="nav nav-tabs">
+               <li class="nav active"><a href="#preview" data-toggle="tab" class="btn btn-primary">preview</a></li>
+               <li class="nav"><a href="#html" data-toggle="tab" class="btn btn-primary">HTML</a></li>
+               <li class="nav"><a href="#css" data-toggle="tab" class="btn btn-primary">CSS</a></li>
+             </ul>
+            
+             <!-- Tab panes -->
+            <div class="tab-content">
+             <div class="tab-pane fade in active" id="preview">Content inside tab A</div>
+             <div class="tab-pane fade" id="html">Content inside tab B</div>
+             <div class="tab-pane fade" id="css">Content inside tab C</div>
+            </div>
+
           </div>
         </div>
       </div>

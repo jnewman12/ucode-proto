@@ -135,12 +135,13 @@ i.fa.fa-bars {
   padding: -12px;
 }
 
-ul.button-section {
-  list-style: none;
+.nav-tabs {
+  margin-top: -250px;
+  margin-left: 110px;
 }
 
-ul.button-section li {
-  display: inline-block;
+.tab-content {
+  color:black;
 }
 
 /* about */
