@@ -135,6 +135,14 @@ i.fa.fa-bars {
   padding: -12px;
 }
 
+ul.button-section {
+  list-style: none;
+}
+
+ul.button-section li {
+  display: inline-block;
+}
+
 /* about */
 #about {
   padding: 50px;
