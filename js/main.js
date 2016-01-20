@@ -13,15 +13,3 @@ function affixNav() {
 		$('nav').affix();
 	}
 } 
-
-/* test for editor 
-var textarea = $('textarea[name="html"]');
-var view=$('#view');
-textarea.hide();
-var editor = ace.edit("editor");
-editor.setTheme("ace/theme/eclipse");
-editor.getSession().setMode("ace/mode/html");
-editor.getSession().on('change', function () {
-    view.contents().find('body').html(editor.getSession().getValue());
-});
-*/
