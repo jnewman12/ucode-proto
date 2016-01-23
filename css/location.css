@@ -4,4 +4,20 @@ section.location {}
 
 .header {}
 
-.info {}
+.info {
+	padding: 50px;
+}
+
+.location-name {
+	text-align: center;
+}
+
+.location-header {
+	padding: 50px;
+	background-color: black;
+}
+
+hr.location {
+	border-bottom: 1px solid black;
+	width: 200px;
+}
