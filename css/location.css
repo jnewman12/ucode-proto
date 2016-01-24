@@ -21,3 +21,8 @@ hr.location {
 	border-bottom: 1px solid black;
 	width: 200px;
 }
+
+.location-description {
+	font-size: 16px;
+	font-family: 'Montserrat';
+}
